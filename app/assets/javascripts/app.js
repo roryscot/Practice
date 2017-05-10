@@ -10,7 +10,7 @@ angular
           url: '/home',
           templateUrl: 'main/_home.html',
           controller: 'MainCtrl'
-        })
+        });
         // re-direct for invalid url
         $urlRouterProvider.otherwise('home');
 
